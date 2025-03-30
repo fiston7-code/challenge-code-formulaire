@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="all-form">
+        <div class="registration-card">
+            <h2>Inscription</h2>
+            <form method="get" action="">
+                <div class="form-group">
+                    <input type="text" name="Nom" placeholder="Entrer votre Nom" required>
+
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="Email" placeholder="Entrer votre Email" required>
+ 
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="Entrer votre mot de passe">
+
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" placeholder="votre numero de telephone" required>
+
+                </div>
+                <div class="radio">
+                <form action="">
+                    <input type="radio" name="sexe" value="Femme" placeholder="Homme" required>
+                    <label for="Homme">Homme</label>
+
+                    <input type="radio" name="sexe" value="Femme" placeholder="Femme" required>
+                    <label for="Femme">Femme</label>
+
+                </form>
+            </div>
+                <div class="form-group">
+                    <input type="text" name="Age" placeholder="Age" required>
+
+                </div>
+                <div class="countries">
+                    <select name="countries" id="countries">
+                        <option value="selectionnez votre pays">selectionnez votre pays</option>
+                        <option value="kinshasa">kinshasa</option>
+                        <option value="cameroun">cameroun</option>
+                        <option value="kenya">kenya</option>
+                        <option value="ouganda">ouganda</option>
+                        <option value="namibie">namibie</option>
+                        <option value="afrique du sud">afrique du sud</option>
+                    </select>
+
+                </div> 
+                <button class="cta-btn">S'inscrire</button>
+            </form>
+        </div>
+        <div class="signin-card">
+            <h2>Connexion</h2>
+        <form action="">
+            <div class="form-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email"  placeholder="Entrer votre email" required>
+            </div>
+            <div class="form-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="mot de passe" required>
+            </div>
+            <button class="cta-btn">Se connecter</button>
+            <div class="alternate-action">
+                <p>vous n'avez pas de compte? <a href="#">Créer le compte</a></p>
+
+            </div>
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>
