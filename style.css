@@ -70,6 +70,10 @@ body {
     transform: translateY(-50%);
     color: #6a11cb;
 }
+.line {
+    width: 1px;
+    background-color: white;
+}
 
 .radio {
     margin: 1rem;
